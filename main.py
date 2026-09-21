@@ -13,6 +13,9 @@ if textOrManual == "text":
         examslist.append(line.strip("\n"))
     f.close()
 
+elif textOrManual == "birthday":
+    print("happy birthday!!!! wish you all the best also in the years to come!!!!")
+
 else:
 
     print("""
